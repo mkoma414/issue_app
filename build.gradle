@@ -32,8 +32,8 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-//jar {
-//	manifest {
-//		enabled = false
-//	}
-//}
+jar {
+	manifest {
+		enabled = false
+	}
+}
